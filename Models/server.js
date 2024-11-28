@@ -22,13 +22,8 @@ class Server{
             user: "root",
             password: "Sitio123",
             database: "usuarios"
-        }); */
-
-        /* this.con.connect(function(err) {
-        if (err) throw err;
-        console.log("Connected!"); // funicion callback
-        }); */
-    }
+        }); 
+    } */
     middlewares(){
         this.app.use(express.static('./public'));
         this.app.use(express.json());
