@@ -13,7 +13,7 @@ class Server{
         this.middlewares();
         this.routes();
         this.listen();
-        this.conectarBd();
+        // this.conectarBd();
 
     }
     /* conectarBd(){
