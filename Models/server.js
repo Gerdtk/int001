@@ -110,7 +110,7 @@ class Server{
     
     listen() {
         this.app.listen(this.port, ()=>{
-            console.log("servidor escuchando:http://127.0.0.1" + this.port);
+            console.log("servidor escuchando:http://127.0.0.1:" + this.port);
         });
     }
 
