@@ -16,13 +16,13 @@ class Server{
         this.conectarBd();
 
     }
-    conectarBd(){
+    /* conectarBd(){
         this.con = mysql.createPool({
             host: "localhost",
             user: "root",
             password: "Sitio123",
             database: "usuarios"
-        });
+        }); */
 
         /* this.con.connect(function(err) {
         if (err) throw err;
